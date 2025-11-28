@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureTech – Блог про ШІ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Kumbh+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <p class="header__subscribe">Підпишіться на нашу розсилку для нових та останніх блогів і ресурсів <span class="arrow">→</span></p>
+        </div>
+        <div class="header__main">
+            <div class="logo">
+                <img src="assets/images/01.png" alt="FutureTech Logo">
+                <span>FutureTech</span>
+            </div>
+            <nav class="nav desktop-only">
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Блоги</a></li>
+                    <li><a href="podcasts.html">Подкасти</a></li>
+                    <li><a href="resources.html">Ресурси</a></li>
+                </ul>
+            </nav>
+            <button class="btn btn--primary desktop-only" onclick="location.href='contact.html'">Зв'язатися з нами</button>
+            <button class="burger-menu mobile-only" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <nav class="mobile-menu mobile-only">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="#">Новини</a></li>
+                <li><a href="#">Блоги</a></li>
+                <li><a href="podcasts.html">Подкасти</a></li>
+                <li><a href="resources.html">Ресурси</a></li>
+                <li><button class="btn btn--primary" onclick="location.href='contact.html'">Зв'язатися з нами</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="hero__subtitle">Ваша подорож у завтрашній день починається тут</p>
+            <div class="hero__top">
+                <h1 class="hero__title">Досліджуйте рубежі штучного інтелекту</h1>
+                <div class="hero__side">
+                    <div class="hero__contributors">
+                        <img src="assets/images/Image1.png" alt="Contributor" class="rounded">
+                        <img src="assets/images/Image2.png" alt="Contributor" class="rounded">
+                        <img src="assets/images/Image3.png" alt="Contributor" class="rounded">
+                         <img src="assets/images/Image4.png" alt="Contributor" class="rounded">
+                    </div>
+                    <p class="hero__explore">Досліджуйте понад 1000 ресурсів<br>Понад 1000 статей про нові тенденції та прориви в технологіях.</p>
+                </div>
+            </div>
+            <p class="hero__description">Ласкаво просимо до епіцентру інновацій у ШІ. FutureTech AI News — ваш пропуск у світ, де машини думають, навчаються та формують майбутнє. Приєднуйтеся до нас у цій візіонерській експедиції в серце ШІ.</p>
+            <div class="hero__stats">
+                <div class="stat">
+                    <h2>300+</h2>
+                    <p>Доступних ресурсів</p>
+                </div>
+                <div class="stat">
+                    <h2>12k+</h2>
+                    <p>Загальних завантажень</p>
+                </div>
+                <div class="stat">
+                    <h2>10k+</h2>
+                    <p>Активних користувачів</p>
+                </div>
+                <button class="btn btn--secondary">Досліджуйте ресурси <span class="arrow">→</span></button>
+            </div>
+            <div class="hero__features">
+                <div class="feature">
+                    <img src="assets/images/02.png" alt="Icon" class="feature__icon">
+                    <div>
+                        <h3>Останні оновлення новин</h3>
+                        <p>Будьте в курсі</p>
+                    </div>
+                    <span class="arrow-circle">↑</span>
+                    <p class="feature__detail">Понад 1000 статей щомісяця</p>
+                </div>
+                <div class="feature">
+                    <img src="assets/images/03.png" alt="Icon" class="feature__icon">
+                    <div>
+                        <h3>Експертні автори</h3>
+                        <p>Довіряйте інсайтам</p>
+                    </div>
+                    <span class="arrow-circle">↑</span>
+                    <p class="feature__detail">Понад 50 відомих експертів ШІ в нашій команді</p>
+                </div>
+                <div class="feature">
+                    <img src="assets/images/04.png" alt="Icon" class="feature__icon">
+                    <div>
+                        <h3>Глобальна аудиторія</h3>
+                        <p>Всесвітній вплив</p>
+                    </div>
+                    <span class="arrow-circle">↑</span>
+                    <p class="feature__detail">2 мільйони читачів щомісяця</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <p class="features__subtitle">Розблокуйте силу</p>
+            <h2>Особливості FutureTech</h2>
+            <div class="features__group">
+                <div class="features__blog">
+                    <img src="assets/images/05.png" alt="Icon" class="features__icon">
+                    <h3>Блог майбутніх технологій</h3>
+                    <p>Будьте в курсі з нашим блогом, присвяченим майбутнім технологіям.</p>
+                </div>
+                <div class="features__cards">
+                    <div class="feature-card">
+                        <h4>Кількість</h4>
+                        <p>Понад 1000 статей про нові тенденції та прориви в технологіях.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Різноманітність</h4>
+                        <p>Статті охоплюють сфери як ШІ, робототехніка, біотехнології та більше.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Частота</h4>
+                        <p>Новий контент додається щодня, щоб тримати вас у курсі.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Авторитетність</h4>
+                        <p>Написано нашою командою техно-експертів та професіоналів галузі.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features__group">
+                <div class="features__blog">
+                    <img src="assets/images/06.png" alt="Icon" class="features__icon">
+                    <h3>Блоги дослідницьких інсайтів</h3>
+                    <p>Пориньте глибоко в концепції майбутніх технологій з нашим дослідницьким розділом.</p>
+                </div>
+                <div class="features__cards">
+                    <div class="feature-card">
+                        <h4>Глибина</h4>
+                        <p>Понад 500 дослідницьких статей для глибокого розуміння.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Графіка</h4>
+                        <p>Візуальні помічники та інфографіка для покращення розуміння.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Тенденції</h4>
+                        <p>Досліджуйте нові тенденції в дослідженнях майбутніх технологій.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h4>Автори</h4>
+                        <p>Внески від техно-дослідників та академіків.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blogs">
+            <p class="blogs__subtitle">Скарбниця знань</p>
+            <button class="btn btn--secondary blogs__view-all">Переглянути всі блоги <span class="arrow">→</span></button>
+            <h2>Досліджуйте глибокі пости блогу FutureTech</h2>
+            <nav class="blogs__categories">
+                <button>Всі</button>
+                <button>Квантові обчислення</button>
+                <button>Етика ШІ</button>
+                <button>Дослідження космосу</button>
+                <button>Біотехнології</button>
+                <button>Відновлювальна енергія</button>
+            </nav>
+            <div class="blogs__posts">
+                <article class="blog-post">
+                    <div class="blog-post__top">
+                        <div class="blog-post__author">
+                            <img src="assets/images/Image2.png" alt="John Techson" class="rounded">
+                            <div>
+                                <p>Джон Тексон</p>
+                                <p class="blog-post__category">Квантові обчислення</p>
+                                <p class="blog-post__date">15 жовтня 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Квантове стрибання в обчисленнях</h3>
+                    <p>Досліджуйте революцію в квантових обчисленнях, її застосування та потенційний вплив на різні галузі.</p>
+                    <button class="btn btn--secondary blog-post__view">Переглянути блог <span class="arrow">→</span></button>
+                    <div class="post-stats">
+                        <span class="like">❤️ 24.5k</span>
+                        <span>💬 50</span>
+                        <span>↪ 20</span>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post__top">
+                        <div class="blog-post__author">
+                            <img src="assets/images/Image3.png" alt="Sarah Ethicist" class="rounded">
+                            <div>
+                                <p>Сара Етичіст</p>
+                                <p class="blog-post__category">Етика ШІ</p>
+                                <p class="blog-post__date">5 листопада 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Етичні дилеми ШІ</h3>
+                    <p>Глибоке занурення в етичні виклики, поставлені ШІ, включаючи упередженість, конфіденційність та прозорість.</p>
+                    <button class="btn btn--secondary blog-post__view">Переглянути блог <span class="arrow">→</span></button>
+                    <div class="post-stats">
+                        <span class="like">🤍 32k</span>
+                        <span>💬 72</span>
+                        <span>↪ 18</span>
+                    </div>
+                </article>
+                <article class="blog-post">
+                    <div class="blog-post__top">
+                        <div class="blog-post__author">
+                            <img src="assets/images/Image4.png" alt="Astronomer X" class="rounded">
+                            <div>
+                                <p>Астроном X</p>
+                                <p class="blog-post__category">Дослідження космосу</p>
+                                <p class="blog-post__date">10 грудня 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Виклик колонізації Марса</h3>
+                    <p>Дослідження технологічних та логістичних викликів колонізації Марса людиною.</p>
+                    <button class="btn btn--secondary blog-post__view">Переглянути блог <span class="arrow">→</span></button>
+                    <div class="post-stats">
+                        <span class="like">🤍 20k</span>
+                        <span>💬 31</span>
+                        <span>↪ 12</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="resources">
+            <p class="resources__subtitle">Ваш прохід до глибокої інформації</p>
+            <h2>Розблокуйте цінні знання з ресурсами FutureTech</h2>
+            <button class="btn btn--secondary">Переглянути всі ресурси <span class="arrow">→</span></button>
+        </section>
+
+        <section class="ebooks">
+            <p class="section__topics">Різноманітність тем <span>Теми включають ШІ в освіті (25%), відновлювану енергію (20%), охорону здоров'я (15%), дослідження космосу (15%) та біотехнології (15%).</span></p>
+            <div class="section__content">
+                <div class="section__left">
+                    <img src="assets/images/07.png" alt="Icon" class="section-icon">
+                    <h2>Електронні книги</h2>
+                    <p>Досліджуйте нашу колекцію електронних книг, що охоплюють широкий спектр тем майбутніх технологій.</p>
+                    <button class="btn btn--secondary">Завантажити електронні книги зараз <span class="arrow">→</span></button>
+                    <div class="section__downloads">
+                        <p>Завантажено</p>
+                        <p>понад 10k користувачами</p>
+                        <div class="user-avatars">
+                            <img src="assets/images/Image1.png" alt="User" class="rounded">
+                            <img src="assets/images/Image2.png" alt="User" class="rounded">
+                            <img src="assets/images/Image3.png" alt="User" class="rounded">
+                            <img src="assets/images/Image4.png" alt="User" class="rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="section__right">
+                    <img src="assets/images/Image5.png" alt="Ebooks Image" class="section-image">
+                    <div class="section__stats">
+                        <div>
+                            <h3>Загалом електронних книг</h3>
+                            <p>Понад 100 електронних книг</p>
+                        </div>
+                        <div>
+                            <h3>Формати завантаження</h3>
+                            <p>Формат PDF для доступу.</p>
+                        </div>
+                        <button class="btn btn--preview">Попередній перегляд <span>👁</span></button>
+                    </div>
+                    <p class="section__expertise">Середня експертиза автора<br>Електронні книги написані відомими експертами з середнім досвідом 15 років.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="whitepapers">
+            <p class="section__topics">Охоплення тем <span>Whitepapers охоплюють квантові обчислення (20%), етику ШІ (15%), перспективи видобутку в космосі (20%), ШІ в охороні здоров'я (15%) та стратегії відновлюваної енергії (30%).</span></p>
+            <div class="section__content">
+                <div class="section__left">
+                    <img src="assets/images/08.png" alt="Icon" class="section-icon">
+                    <h2>Технічні документи</h2>
+                    <p>Пориньте в комплексні звіти та аналізи з нашою колекцією технічних документів.</p>
+                    <button class="btn btn--secondary">Завантажити технічні документи зараз <span class="arrow">→</span></button>
+                    <div class="section__downloads">
+                        <p>Завантажено</p>
+                        <p>понад 10k користувачами</p>
+                        <div class="user-avatars">
+                            <img src="assets/images/Image01.png" alt="User" class="rounded">
+                            <img src="assets/images/Image02.png" alt="User" class="rounded">
+                            <img src="assets/images/Image03.png" alt="User" class="rounded">
+                            <img src="assets/images/Image04.png" alt="User" class="rounded">
+                        </div>
+                    </div>
+                </div>
+                <div class="section__right">
+                    <img src="assets/images/Image6.png" alt="Whitepapers Image" class="section-image">
+                    <div class="section__stats">
+                        <div>
+                            <h3>Загалом технічних документів</h3>
+                            <p>Понад 50 технічних документів</p>
+                        </div>
+                        <div>
+                            <h3>Формати завантаження</h3>
+                            <p>Формат PDF для доступу.</p>
+                        </div>
+                        <button class="btn btn--preview">Попередній перегляд <span>👁</span></button>
+                    </div>
+                    <p class="section__expertise">Середня експертиза автора<br>Технічні документи написані експертами з середнім досвідом 20 років.</p>
+                </div>
+            </div>
+        </section>
+
+ 
+
+        <section class="testimonials">
+            <p class="testimonials__subtitle">Що кажуть наші читачі</p>
+            <button class="btn btn--secondary testimonials__view-all">Переглянути всі відгуки <span class="arrow">→</span></button>
+            <h2>Реальні слова від реальних читачів</h2>
+            <div class="testimonials__grid">
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile1.png" alt="Sarah Thompson" class="rounded">
+                        <div>
+                            <p>Сара Томпсон</p>
+                            <p>Сан-Франциско, США</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Електронні книги про ШІ в освіті стали революцією для моїх досліджень. Вони надають глибокі інсайти та кейси, які безцінні для оновлення знань.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile2.png" alt="Raj Patel" class="rounded">
+                        <div>
+                            <p>Радж Пател</p>
+                            <p>Мумбай, Індія</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Технічні документи про стратегії відновлюваної енергії значно вплинули на мою роботу. Вони пропонують детальні дані та аналіз, допомагаючи приймати обґрунтовані рішення.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile3.png" alt="Emily Adams" class="rounded">
+                        <div>
+                            <p>Емілі Адамс</p>
+                            <p>Лондон, Великобританія</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Звіти про ШІ в охороні здоров'я стали невід'ємним ресурсом для нашої лікарні. Вони висвітлюють останні інновації та найкращі практики, покращуючи догляд за пацієнтами.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile4.png" alt="Alan Jackson" class="rounded">
+                        <div>
+                            <p>Алан Джексон</p>
+                            <p>Х'юстон, США</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Звіти про перспективи видобутку в космосі розпалили мою пристрасть до дослідження космосу. Вони надають всебічний погляд на те, що лежить за межами Землі.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile5.png" alt="Jessica Miller" class="rounded">
+                        <div>
+                            <p>Джессіка Міллер</p>
+                            <p>Бостон, США</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Дослідницькі роботи про прориви в геноміці стали золотою копальнею інформації. Вони сформували напрямок моїх досліджень у геноміці.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial__header">
+                        <img src="assets/images/Profile6.png" alt="Diego Lopez" class="rounded">
+                        <div>
+                            <p>Дієго Лопес</p>
+                            <p>Барселона, Іспанія</p>
+                        </div>
+                    </div>
+                    <div class="stars">★★★★★</div>
+                    <p>Електронні книги про стратегії відновлюваної енергії надали мені інсайти, необхідні для повороту нашого стартапу до сталості.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+       <section class="community">
+            <p class="community__subtitle">Навчайтеся, Підключайтеся та Інновуйте</p>
+            <div class="community-header">
+                <img src="assets/images/01.png" alt="Community Icon" class="community-icon">
+                <div class="community-text">
+                    <h2>Станьте частиною революції майбутніх технологій</h2>
+                    <p>Пориньте у світ майбутніх технологій. Досліджуйте наші комплексні ресурси, спілкуйтеся з однодумцями-ентузіастами технологій та сприяйте інноваціям у галузі. Приєднуйтесь до динамічної спільноти далекоглядних мислителів.</p>
+                </div>
+            </div>
+            <div class="community__grid">
+                <div class="community-card">
+                    <h3>Доступ до ресурсів <span class="arrow-circle">↑</span></h3>
+                    <p>Відвідувачі можуть отримати доступ до широкого спектру ресурсів, включаючи електронні книги, технічні документи, звіти.</p>
+                </div>
+                <div class="community-card">
+                    <h3>Форум спільноти <span class="arrow-circle">↑</span></h3>
+                    <p>Приєднуйтесь до нашого активного форуму спільноти, щоб обговорювати галузеві тенденції, ділитися інсайтами та співпрацювати з колегами.</p>
+                </div>
+                <div class="community-card">
+                    <h3>Технічні події <span class="arrow-circle">↑</span></h3>
+                    <p>Будьте в курсі майбутніх технічних подій, вебінарів та конференцій, щоб розширити свої знання.</p>
+                </div>
+            </div>
+        </section>
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <h4>Головна</h4>
+                <ul>
+                    <li><a href="#">Особливості</a></li>
+                    <li><a href="#">Блоги</a></li>
+                    <li><a href="resources.html">Ресурси <span class="new">Нове</span></a></li>
+                    <li><a href="#">Відгуки</a></li>
+                    <li><a href="contact.html">Зв'язатися з нами</a></li>
+                    <li><a href="#">Розсилка</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Новини</h4>
+                <ul>
+                    <li><a href="#">Трендові історії</a></li>
+                    <li><a href="#">Рекомендовані відео</a></li>
+                    <li><a href="#">Технології</a></li>
+                    <li><a href="#">Здоров'я</a></li>
+                    <li><a href="#">Політика</a></li>
+                    <li><a href="#">Навколишнє середовище</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Блоги</h4>
+                <ul>
+                    <li><a href="#">Квантові обчислення</a></li>
+                    <li><a href="#">Етика ШІ</a></li>
+                    <li><a href="#">Дослідження космосу</a></li>
+                    <li><a href="#">Біотехнології <span class="new">Нове</span></a></li>
+                    <li><a href="#">Відновлювальна енергія</a></li>
+                    <li><a href="#">Біохакінг</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Подкасти</h4>
+                <ul>
+                    <li><a href="podcasts.html">Революція ШІ <span class="new">Нове</span></a></li>
+                    <li><a href="podcasts.html">TechTalk AI</a></li>
+                    <li><a href="podcasts.html">AI Розмови</a></li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h4>Ресурси</h4>
+                <ul>
+                    <li><a href="resources.html">Технічні документи →</a></li>
+                    <li><a href="resources.html">Електронні книги →</a></li>
+                    <li><a href="resources.html">Звіти →</a></li>
+                    <li><a href="resources.html">Дослідницькі роботи →</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <ul>
+                <li><a href="#">Умови та положення</a></li>
+                <li><a href="#">Політика конфіденційності</a></li>
+            </ul>
+            <div class="social">
+                <a href="#">🕊</a>
+                <a href="#">🔔</a>
+                <a href="#">in</a>
+            </div>
+            <p>© 2024 FutureTech. Усі права захищені.</p>
+        </div>
+    </footer>
+
+    <script>
+        const burger = document.querySelector('.burger-menu');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        burger.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+            burger.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+```

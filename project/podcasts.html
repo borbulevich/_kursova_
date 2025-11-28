@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FutureTech – Блог про ШІ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style/styles.css" />
+  </head>
+  <body>
+<header id="mainHeader">
+    <section class="top-bar">
+      <span>
+        Отримуйте ексклюзивні блоги та матеріали! Підпишіться на нашу Розсилку
+        <a id="subscribeLink" href="">
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </a>
+      </span>
+    </section>
+    <section class="nav-bar">
+      <svg width="179" height="50">
+        <use xlink:href="sprite.svg#logo-main"></use>
+      </svg>
+      <ul class="links-navigation">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="#">Новини</a></li>
+        <li class="this">Подкасти</li>
+        <li><a href="resources.html">Ресурси</a></li>
+      </ul>
+      <button class="links-navigation-contact" onclick="location.href='contact.html'">Зв'язатися з нами</button>
+    </section>
+</header>
+<div id="subscriptionModal" class="modal">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <div class="modal-header">
+            <svg width="60" height="60">
+                <use xlink:href="sprite.svg#spt-icon1"></use>
+            </svg>
+            <h2>Будьте на крок попереду з FutureTech!</h2>
+            <p>
+                Підпишіться на нашу ексклюзивну розсилку, щоб отримувати щотижневі огляди,
+                глибокі аналізи та запрошення на вебінари від лідерів галузі ШІ.
+            </p>
+        </div>
+        <form class="modal-form">
+            <div class="form-group full-width">
+                <label for="modal-name">Ваше Ім'я</label>
+                <input type="text" id="modal-name" placeholder="Іван" required>
+            </div>
+            <div class="form-group full-width">
+                <label for="modal-email">Електронна Пошта</label>
+                <input type="email" id="modal-email" placeholder="ivan.koval@example.com" required>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="modal-terms" required>
+                <span class="terms-text">Я погоджуюся з <a href="#" class="modal-link">Умовами використання</a> та <a href="#" class="modal-link">Політикою конфіденційності</a>.</span>
+            </div>
+            <button type="submit" class="send-button modal-subscribe-btn">
+                Отримати Ексклюзивний Контент
+            </button>
+        </form>
+    </div>
+</div>
+<main>
+  <section class="title-main-podcasts">
+    <div class="title-wrap">
+      <h1>Світ Штучного Інтелекту у Подкастах</h1>
+      <div class="title-bottom">
+        <h1>Голос Майбутнього</h1>
+        <p>
+          Пориньте глибоко у світ передових технологій з нашою колекцією інформативних подкастів.
+          Слухайте інтерв'ю з лідерами думок, аналіз останніх трендів та гарячі обговорення
+          штучного інтелекту. Це ваш щотижневий квиток до знань та інновацій!
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="podcasts-top">
+    <div class="section-podcasts-top">
+      <div class="left-spt">
+      <svg width="80" height="80">
+        <use xlink:href="sprite.svg#spt-icon2"></use>
+      </svg>
+        <div class="titlt-spt">
+          <h2>AI на Передовій</h2>
+          <svg width="180" height="44">
+            <use xlink:href="sprite.svg#rating"></use>
+          </svg>
+        </div>
+        <div class="links-spt">
+          <div class="links-content">
+            <span>Ведуча</span>
+            <p>Д-р Емілі Кларк</p>
+          </div>
+          <button class="link-btn">Слухати Запис
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="right-spt">
+        <img src="image/video1.webp" alt="Відео">
+        <h3>Аналізуємо трансформаційний вплив ШІ на галузі</h3>
+        <span>Приєднуйтесь до д-ра Емілі Кларк у дослідженні того, як ШІ змінює індустрії.
+          У програмі — ексклюзивні інтерв'ю, глибокі звіти та реальні кейси.
+          Відкрийте для себе можливості ШІ у сфері освіти, виробництва та логістики.</span>
+          <div class="content-right-spt">
+            <div class="rspt-card">
+              <p>Всього епізодів</p>
+              <span>50</span>
+            </div>
+            <div class="rspt-card">
+              <p>Середня тривалість</p>
+              <span>30 хв</span>
+            </div>
+            <div class="rspt-card">
+              <p>Частота випуску</p>
+              <span>Щотижня</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="section-podcasts-top">
+      <div class="left-spt">
+      <svg width="80" height="80">
+        <use xlink:href="sprite.svg#spt-icon1"></use>
+      </svg>
+        <div class="titlt-spt">
+          <h2>Алгоритми Майбутнього</h2>
+          <svg width="180" height="44">
+            <use xlink:href="sprite.svg#rating"></use>
+          </svg>
+        </div>
+        <div class="links-spt">
+          <div class="links-content">
+            <span>Ведучий</span>
+            <p>Проф. Дмитро Коваль</p>
+          </div>
+          <button class="link-btn">Перейти до Слухання
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="right-spt">
+        <img src="image/video1.webp" alt="Відео">
+        <h3>Огляд ключових проривів у сфері глибинного навчання</h3>
+        <span>Проф. Дмитро Коваль детально розповідає про передові технології
+          та наукові відкриття у світі ШІ. Дізнайтеся про нейронні мережі,
+          машинне бачення та їх застосування. Для технічних спеціалістів та дослідників.</span>
+          <div class="content-right-spt">
+            <div class="rspt-card">
+              <p>Всього епізодів</p>
+              <span>35</span>
+            </div>
+            <div class="rspt-card">
+              <p>Середня тривалість</p>
+              <span>45 хв</span>
+            </div>
+            <div class="rspt-card">
+              <p>Частота випуску</p>
+              <span>Раз на два тижні</span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+<section class="latest-podcast">
+  <div class="lp-top">
+    <div class="lp-top-badge">Нові Голоси та Теми</div>
+    <h3>Свіжі Епізоди Подкастів</h3>
+  </div>
+  <div class="lp-list">
+    <div class="lp-cards">
+      <img src="image/video1-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>AI у Фінансах</span>
+        <p>Д-р Андрій Лиман пояснює, як алгоритми
+          змінюють фондові ринки, прогнозування ризиків
+          та персональні фінансові консультації.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="lp-cards">
+      <img src="image/video2-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>Етика та ШІ</span>
+        <p>Ведучі обговорюють моральні дилеми
+          розробки автономних систем та питання
+          упередженості алгоритмів.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="lp-cards">
+      <img src="image/video3-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>Машинне Навчання для Початківців</span>
+        <p>Простий вступ до основ ML,
+          розкриваючи ключові концепції,
+          такі як тренування моделей та валідація.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="lp-cards">
+      <img src="image/video4-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>AI у Мистецтві</span>
+        <p>Дослідження ролі генеративних
+          моделей у створенні музики,
+          живопису та літератури.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="lp-cards">
+      <img src="image/video5-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>Квантовий ШІ</span>
+        <p>Науковий огляд потенціалу
+          об'єднання квантових обчислень
+          та штучного інтелекту.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="lp-cards">
+      <img src="image/video6-lp.webp" alt="photo">
+      <div class="cards-content">
+        <span>Автономні Транспортні Засоби</span>
+        <p>Аналіз технологій самокерованих авто,
+          викликів безпеки та майбутнього
+          міського транспорту.</p>
+        <button class="link-btn">Слухати Епізод
+          <svg width="20" height="20">
+            <use xlink:href="sprite.svg#arrow-link"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+    <section class="feature-section">
+      <div class="feature-header">
+        <div class="feature-logo">
+          <svg width="150" height="150">
+            <use xlink:href="sprite.svg#logo-footer"></use>
+          </svg>
+        </div>
+
+        <div class="feature-content">
+          <div class="feature-badge">Освіта, Співпраця та Драйв Інновацій</div>
+          <h2>Будуйте Майбутнє: Долучайтеся до Tech-Спільноти</h2>
+          <p>
+            Станьте активним учасником світу передових технологій. Ознайомтеся з нашою
+            великою бібліотекою ресурсів, заводьте контакти з провідними експертами та
+            сприяйте прогресу в галузі. Ми — динамічна платформа для тих,
+            хто дивиться вперед.
+          </p>
+        </div>
+      </div>
+
+      <div class="feature-cards">
+        <div class="cta-card">
+          <div class="card-header">
+            <h3>Бібліотека Документів</h3>
+            <a href="#" class="circle-btn">
+              <svg width="20" height="20">
+                <use xlink:href="sprite.svg#arrow-link-footer"></use>
+              </svg>
+            </a>
+          </div>
+          <p>
+            Користувачі мають повний доступ до високоякісних матеріалів: електронних книг,
+            технічних оглядів та дослідницьких звітів.
+          </p>
+        </div>
+
+        <div class="cta-card">
+          <div class="card-header">
+            <h3>Професійний Форум</h3>
+            <a href="#" class="circle-btn">
+              <svg width="20" height="20">
+                <use xlink:href="sprite.svg#arrow-link-footer"></use>
+              </svg>
+            </a>
+          </div>
+          <p>
+            Приєднуйтесь до місця, де обговорюються найгостріші галузеві питання, відбувається обмін
+            досвідом та професійна співпраця.
+          </p>
+        </div>
+
+        <div class="cta-card">
+          <div class="card-header">
+            <h3>Актуальні Події</h3>
+            <a href="#" class="circle-btn">
+              <svg width="20" height="20">
+                <use xlink:href="sprite.svg#arrow-link-footer"></use>
+              </svg>
+            </a>
+          </div>
+          <p>
+            Не пропустіть важливі конференції, воркшопи та вебінари, щоб
+            залишатися на піку технологічних знань.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Головна</h4>
+          <ul>
+            <li><a href="#">Ключові Секції</a></li>
+            <li><a href="#">Читайте Блоги</a></li>
+            <li>
+              <a href="#">Наші Ресурси <span class="badge">Нове</span></a>
+            </li>
+            <li><a href="#">Відгуки Клієнтів</a></li>
+            <li><a href="#">Контакти</a></li>
+            <li><a href="#">Розсилка Новин</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Новини</h4>
+          <ul>
+            <li><a href="#">Головні Історії</a></li>
+            <li><a href="#">Відео Огляди</a></li>
+            <li><a href="#">Світ Технологій</a></li>
+            <li><a href="#">Охорона Здоров'я</a></li>
+            <li><a href="#">Політичні Аналізи</a></li>
+            <li><a href="#">Екологія</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Блоги</h4>
+          <ul>
+            <li><a href="#">Квантові Обчислення</a></li>
+            <li><a href="#">Етика ШІ</a></li>
+            <li><a href="#">Дослідження Космосу</a></li>
+            <li>
+              <a href="#">Біотехнології <span class="badge">Нове</span></a>
+            </li>
+            <li><a href="#">Чиста Енергія</a></li>
+            <li><a href="#">Біохакінг</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Подкасти</h4>
+          <ul>
+            <li><a href="#">AI Революція</a></li>
+            <li>
+              <a href="#">Алгоритми Майбутнього <span class="badge">Нове</span></a>
+            </li>
+            <li><a href="#">TechTalk AI</a></li>
+            <li><a href="#">Голос ШІ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col resources-col">
+          <h4>Матеріали</h4>
+          <a href="#" class="resource-btn">
+            <span>Технічні Документи</span>
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+          <a href="#" class="resource-btn">
+            <span>Е-книги</span>
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+          <a href="#" class="resource-btn">
+            <span>Аналітичні Звіти</span>
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+          <a href="#" class="resource-btn">
+            <span>Дослідницькі Публікації</span>
+            <svg width="20" height="20">
+              <use xlink:href="sprite.svg#arrow-link"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <a href="#">Умови використання</a>
+          <a href="#">Політика Конфіденційності</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-medium"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-copyright">
+          © 2024 FutureTech. Усі права захищені.
+        </div>
+      </div>
+    </footer>
+  <button id="scrollToTopBtn" title="На початок Сторінки">
+      ↑
+  </button>
+    <script src="js/script.js"></script>
+  </body>
+</html>
